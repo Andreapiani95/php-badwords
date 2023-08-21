@@ -6,6 +6,13 @@
     <title>Badwords</title>
 </head>
 <body>
-    <input type="text" name="" id="">
+    <form action="output.php" method="get">
+        <input type="text" name="paragraph">
+        Parola da censurare:<input type="text" name="badword">
+
+        <button type="submit">
+            Invia
+        </button>
+    </form>
 </body>
 </html>
